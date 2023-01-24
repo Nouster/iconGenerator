@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
+
+        <div id="menu">
+            
+            <h1>Configuration</h1>
+
+            <h2>Presets</h2>
+            <div id="choixPresets"></div>
+
+            <h2>Couleur de fond</h2>
+            <div id="choixCouleurs"></div>
+
+            <h2>Couleur d'icône & de texte</h2>
+            <div id="choixCouleursIcone"></div>
+            
+            <h2>Icône</h2>
+            <div id="choixIcones"></div>
+            
+            <h2>Intitulé</h2>
+            <input maxlength="15" type="text" id="texte" placeholder="intitulé" value="Mon icône" onkeyup="majIntitule(this)">
+        
+        </div>
+
+        <div id="preview">
+            <div id="icone">
+                <i class="bi bi-android2"></i>
+                <div id="intitule">Mon icône</div>
+            </div>
+        </div>
+
+    </body>
+    </html>
